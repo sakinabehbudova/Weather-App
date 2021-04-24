@@ -4,7 +4,7 @@ const Footer =()=>{
 return (
     <div className="footer">
         <hr/>
-     Sakina Behbudova-2021
+     Sakina Behbudova- 2021
     </div>
 )
 }
