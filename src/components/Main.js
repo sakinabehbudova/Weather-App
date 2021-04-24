@@ -18,7 +18,7 @@ const Main = () => {
     e.preventDefault();
     const API_key = "9c3cb98520f309bd159e77512e8e5e28";
     const location = e.target.elements.location.value;
-    if (!location) return setError("Plaese enter the name of city."), setWeather(null)
+    if (!location) return setError("Plaese enter the name of city."),  setWeather(null)
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_key}&units=metric`;
     const request = axios.get(url);
     const response = await request;
